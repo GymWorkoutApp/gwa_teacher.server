@@ -1,2 +1,2 @@
-# gwa_teacher.server
-Microservice that maintains endpoints related to the teacher
+# gwap-teacher
+Microservice that maintains endpoints related to the register teacher

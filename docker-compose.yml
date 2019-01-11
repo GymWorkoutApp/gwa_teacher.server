@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  gwap-teacher:
+    container_name: gwap-teacher
+    build: .
+    expose:
+      - 8000
+    ports:
+      - 8080:8080
+    env_file:
+      - environments/hml.env
